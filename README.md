@@ -14,13 +14,19 @@ Ports are bound to localhost only:
 
 ## Configuration
 
-1. Copy the template (if needed):
+1. Create `.env` (safe defaults + generated passwords):
+
+```bash
+./scripts/init-env.sh
+```
+
+2. Or create it manually:
 
 ```bash
 cp .env.example .env
 ```
 
-2. Edit `.env` values:
+3. Edit `.env` values if needed:
 
 - `MYSQL_ROOT_PASSWORD`
 - `MYSQL_DATABASE`
