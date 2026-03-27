@@ -114,5 +114,3 @@ Use:
 ## Notes
 
 - `.env` contains secrets and should stay out of version control.
-- A previous data snapshot backup exists in this folder:
-  - `mysql_volume_backup_20260327_092905.tar.gz`
